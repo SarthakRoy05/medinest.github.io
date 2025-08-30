@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediNest - Home</title>
+  <meta name="title" content="MediNest - home">
+  <meta name="description" content="This is a medical html template">
+  <link rel="icon" href="./image/favicon.png" type="image/png">
+
+<!--bootstrap css starts  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!--bootstrap css end  -->
+<!-- Google css font starts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- Google CSS font ends -->
+
+<!-- own css file link  -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" as="image" href="./image/bg.png">
+</head>
+
+<body>
+<!-- nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light custom-navbar"id="navbar">
+  <div class="nav-container container-fluid">
+    <a href="#" class="logo">
+      <img src="./image/favicon.png" alt="Logo"/>
+      <span>MediNest</span>
+    </a> 
+
+    <!-- Toggler -->
+    <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="toggler-line"></span>
+      <span class="toggler-line"></span>
+    </button>
+
+    <!-- Nav Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav-links navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link format poppins-semibold" aria-current="page" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link format poppins-semibold" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link format poppins-semibold" href="#doctor">Doctor</a></li>
+        <li class="nav-item"><a class="nav-link format poppins-semibold" href="#review">Review</a></li>
+        <li class="nav-item"><a class="nav-link format poppins-semibold" href="#contact">Contact</a></li>
+        <li class="nav-item"><a class="nav-link format poppins-semibold" href="#blog">Blog</a></li>
+      </ul>
+      <a href="#" class="btn ms-lg-auto">Make Appointment</a>
+    </div>
+</div>
+</nav>
+<!-- nav bar ends -->
+
+<!-- HERO SECTION -->
+<main>
+<section class="section hero" style="background-image: url('./image/bg.png')" aria-label="home" id="home">
+  <div class="container hero-container" data-reveal>
+
+    <!-- Left Content -->
+    <div class="hero-content">
+      <h2 class="typewriter">Welcome To MediNest</h2>
+
+      <h1 class="hero-title">
+        Find Your <br> Nearest Doctor
+      </h1>
+
+      <div class="hero-card">
+        <p class="card-text">Search doctors, Clinics, Hospitals, etc.</p>
+
+        <div class="wrapper">
+          <div class="input-wrapper">
+            <input type="text" placeholder="Enter Location" class="input-field">
+            <ion-icon name="location"></ion-icon>
+          </div>
+
+          <button class="btn">
+            <ion-icon name="search"></ion-icon>
+            <span>Find Now</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <figure class="hero-banner">
+      <img src="./image/hero-banner.png" width="590" height="517" alt="hero banner" class="w-100">
+    </figure>
+  </div>
+</section>
+
+
+ <!-- -- SERVICE -- -->
+   <section class="service"  aria-label="service" data-reveal id="doctor">
+  <div class="container service-container">
+
+    <h2 class="service-title" style="color:#0b9ca1;">Our Services</h2>
+
+    <div class="service-box">
+      <div class="service-item">
+        <img src="./image/icon-1.png" alt="Psychiatry">
+        <h3>Psychiatry</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <button class="btn-circle" type="button">
+  <ion-icon name="arrow-forward-outline"></ion-icon>
+</button>
+      </div>
+
+      <div class="service-item">
+        <img src="./image/icon-2.png" alt="Gynecology">
+        <h3>Gynecology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <button class="btn-circle" type="button">
+  <ion-icon name="arrow-forward-outline"></ion-icon>
+</button>
+      </div>
+
+      <div class="service-item">
+        <img src="./image/icon-3.png" alt="Pulmonology">
+        <h3>Pulmonology</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <button class="btn-circle" type="button">
+  <ion-icon name="arrow-forward-outline"></ion-icon>
+</button>
+      </div>
+
+      <div class="service-item">
+        <img src="./image/icon-4.png" alt="Orthopedics">
+        <h3>Orthopedics</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+        <button class="btn-circle" type="button">
+  <ion-icon name="arrow-forward-outline"></ion-icon>
+</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="about section" data-reveal id="about" data-reveal>
+  <div class="container about-container">
+
+    <!-- Left Content -->
+    <div class="about-content">
+      <p class="section-subtitle">About Us</p>
+      <h2 class="section-title">Experienced Workers</h2>
+
+      <p class="section-text">
+        Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, 
+        a porta ante lectus dapibus est. Aliquam.
+      </p>
+
+      <ul class="tab-list">
+        <li><button class="tab-btn active">Vision</button></li>
+        <li><button class="tab-btn">Mission</button></li>
+        <li><button class="tab-btn">Strategy</button></li>
+      </ul>
+
+      <p class="tab-text">
+        Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, 
+        a porta ante lectus dapibus est. Aliquam a bibendum mi, sed condimentum.
+      </p>
+
+      <!-- Checklist -->
+      <ul class="about-list">
+        <li><ion-icon name="checkmark-circle-outline"></ion-icon> Sonsectetur adipisicing elit</li>
+        <li><ion-icon name="checkmark-circle-outline"></ion-icon> Exercitation ullamco laboris</li>
+        <li><ion-icon name="checkmark-circle-outline"></ion-icon> Eiusmod tempor incididunt</li>
+        <li><ion-icon name="checkmark-circle-outline"></ion-icon> Aolore magna aliqua</li>
+      </ul>
+    </div>
+
+    <div class="about-image">
+      <img src="./image/about-banner.png" alt="About Image" class="about-img">
+    </div>
+  </div>
+</section>
+
+
+<!-- - #LISTING -->
+<section class="listing-section" data-reveal id="about" >
+  <div class="container">
+    <header class="listing-header">
+      <p class="subtitle">Doctors Listing</p>
+      <h2 class="listing-title">Browse by Specialist</h2>
+    </header>
+
+    <div class="listing-grid">
+      <div class="listing-card">
+        <img src="./image/icon-1.png" alt="Psychiatry Icon" class="card-icon">
+        <h3 class="card-title">Psychiatry</h3>
+        <p class="card-text">Porta velit</p>
+      </div>
+
+      <div class="listing-card">
+        <img src="./image/icon-2.png" alt="Gynecology Icon" class="card-icon">
+        <h3 class="card-title">Gynecology</h3>
+        <p class="card-text">Motto page</p>
+      </div>
+
+      <div class="listing-card">
+        <img src="./image/icon-4.png" alt="Pulmonology Icon" class="card-icon">
+        <h3 class="card-title">Pulmonology</h3>
+        <p class="card-text">Must be saved</p>
+      </div>
+
+      <div class="listing-card">
+        <img src="./image/icon-5.png" alt="Orthopedics Icon" class="card-icon">
+        <h3 class="card-title">Orthopedics</h3>
+        <p class="card-text">Conclude etiquette</p>
+      </div>
+
+      <div class="listing-card">
+        <img src="./image/icon-6.png" alt="Pediatrics Icon" class="card-icon">
+        <h3 class="card-title">Pediatrics</h3>
+        <p class="card-text">Process maintenance</p>
+      </div>
+
+      <div class="listing-card">
+        <img src="./image/icon-7.png" alt="Osteology Icon" class="card-icon">
+        <h3 class="card-title">Osteology</h3>
+        <p class="card-text">Note fashion</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+
+<!-- BLOG SECTION -->
+<section class="blog-section" data-reveal id="blog" >
+  <div class="container">
+
+    <div class="blog-header">
+      <p class="section-subtitle">News & Article</p>
+      <h2 class="section-title">Latest Articles</h2>
+    </div>
+
+    <div class="blog-grid">
+      <div class="blog-card">
+        <div class="meta-wrapper">
+          <div class="card-meta">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>By Admin</span>
+          </div>
+          <div class="card-meta">
+            <ion-icon name="folder-outline"></ion-icon>
+            <span>Specialist</span>
+          </div>
+        </div>
+
+        <h3 class="content-title">Could intermittent fasting reduce breast cancer</h3>
+        <time class="date">28 January, 2022</time>
+        <p class="entry-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
+        <a href="#" class="btn-text">Read More</a>
+      </div>
+
+      <div class="blog-card">
+        <div class="meta-wrapper">
+          <div class="card-meta">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>By Admin</span>
+          </div>
+          <div class="card-meta">
+            <ion-icon name="folder-outline"></ion-icon>
+            <span>Specialist</span>
+          </div>
+        </div>
+
+        <h3 class="content-title">Give children more autonomy during the pandemic</h3>
+        <time class="date">28 January, 2022</time>
+        <p class="entry-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
+        <a href="#" class="btn-text">Read More</a>
+      </div>
+
+      <div class="blog-card">
+        <div class="meta-wrapper">
+          <div class="card-meta">
+            <ion-icon name="person-outline"></ion-icon>
+            <span>By Admin</span>
+          </div>
+          <div class="card-meta">
+            <ion-icon name="folder-outline"></ion-icon>
+            <span>Specialist</span>
+          </div>
+        </div>
+
+        <h3 class="content-title">How do binge eating and drinking impact the liver?</h3>
+        <time class="date">28 January, 2022</time>
+        <p class="entry-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr...</p>
+        <a href="#" class="btn-text">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- #Footer -->
+
+<footer class="footer" data-reveal style="background-image: url('./image/footer-bg.png')" id="contact" >
+  <div class="container">
+
+    <div class="footer-contact-bar">
+      <div class="contact-logo">
+        <img src="./image/favicon.png" alt="MediNest Logo">
+        <h2>MediNest</h2>
+      </div>
+
+      <div class="contact-email">
+        <p><ion-icon name="mail-outline"></ion-icon> <strong>Main Email:</strong> <a href="medinest:contact@website.com">contact@website.com</a></p>
+        <p><ion-icon name="mail-outline"></ion-icon> <strong>Inquiries:</strong> <a href="emergencymedinest:info@gmail.com">info@gmail.com</a></p>
+      </div>
+
+      <div class="contact-phone">
+        <p><ion-icon name="call-outline"></ion-icon> <strong>Office Telephone:</strong> <a href="tel:020979620320">020979620320</a></p>
+        <p><ion-icon name="call-outline"></ion-icon> <strong>Mobile:</strong> <a href="tel:000423249493">0004 2324 9493</a></p>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="footer-column">
+        <h4>About Us</h4>
+        <p style="opacity: 0.7; font-family: sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do...</p>
+        <address style="opacity: 0.7; font-family: sans-serif;">2416 Mapleview Drive, Tampa, FL 33504</address>
+      </div>
+
+      <div class="footer-column">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Conditions</a></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">What We Offer</a></li>
+          <li><a href="#">Latest News</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Conditions</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Join as a Doctor</a></li>
+          <li><a href="#">New Guests List</a></li>
+          <li><a href="#">The Team List</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>Subscribe</h4>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p style="opacity: 0.7; font-family: sans-serif;">Get the latest updates via email. At any time you may unsubscribe.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; MediNest 2025 | All Rights Reserved by codewithsadee</p>
+      <div class="social-icons">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- #BACK TO TOP -->
+<a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+  <ion-icon name="chevron-up"></ion-icon>
+</a>
+
+
+<!-- Sticky Header JS -->
+<script>
+  window.addEventListener('scroll', function () {
+    const navbar = document.getElementById('navbar');
+    if (window.scrollY > 50) {
+      navbar.classList.add('active');
+    } else {
+      navbar.classList.remove('active');
+    }
+  });
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<!-- bootstrap js starts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- bootstrap js ends -->
+
+<script>
+  const revealElements = document.querySelectorAll('[data-reveal]');
+
+  const revealOnScroll = () => {
+    revealElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 50) {
+        el.classList.add('revealed');
+      }
+    });
+  };
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+</body>
+</html>
