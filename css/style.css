@@ -80,6 +80,7 @@ ul, li {
   transition: transform 0.3s ease-in-out;
 }
 
+
 .btn {
   background-color: #0b9ca1;
   color: white;
@@ -132,7 +133,7 @@ ul, li {
   width: 0;
   border-right:rgb(10, 10, 10);
   font-family: var(--ff-rubik);
- border-right: 2px solid rgb(10, 10, 10);
+  border-right: 2px solid rgb(10, 10, 10);
   animation: typing 3.5s steps(35, end) forwards, blink 0.7s step-end infinite;
 }
 
@@ -261,7 +262,7 @@ font-size: 16px;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   font-family: var(--ff-rubik);
-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .btn-circle:hover {
@@ -363,7 +364,7 @@ transition: all 0.3s ease;
   font-size: 1.2rem;
   font-family: var(--ff-rubik);
   line-height: 1.7;     
-grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
 }
 
 
